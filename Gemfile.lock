@@ -128,6 +128,12 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
+    octicons (19.7.0)
+    primer_view_components (0.8.0)
+      actionview (>= 5.0.0)
+      activesupport (>= 5.0.0)
+      octicons (>= 18.0.0)
+      view_component (>= 3.1, < 4.0)
     psych (5.1.0)
       stringio
     public_suffix (5.0.3)
@@ -226,6 +232,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  primer_view_components (~> 0.8.0)
   puma (~> 5.0)
   rails (~> 7.0.7, >= 7.0.7.2)
   selenium-webdriver

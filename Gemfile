@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "view_component", "~> 3.5"
+
+gem "primer_view_components", "~> 0.8.0"
